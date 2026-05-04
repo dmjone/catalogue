@@ -37,8 +37,8 @@ The catalogue is published as a static site. View it at:
 To preview locally:
 
 ```bash
-git clone https://github.com/divyamohan1993/dmj-one-catalogue.git
-cd dmj-one-catalogue
+git clone https://github.com/dmjone/catalogue.git
+cd catalogue
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
