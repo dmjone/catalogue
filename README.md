@@ -4,11 +4,13 @@
 
 A working catalogue of every product built or mentored to ship under [dmj.one](https://dmj.one) since August 2022 · the entire body of work from Divya Mohan's Shoolini University journey, designed for slow phones, bad networks, and small towns where things have to actually work.
 
-[![Live](https://img.shields.io/badge/live-dmj.one-d8631a?style=for-the-badge)](https://dmj.one)
+[![Live](https://img.shields.io/badge/live-dmj.one%2Fcatalogue-d8631a?style=for-the-badge)](https://dmj.one/catalogue/)
 [![Products](https://img.shields.io/badge/products-59-1f3a5f?style=for-the-badge)](#the-catalogue)
 [![Built for Bharat](https://img.shields.io/badge/Built%20for-Bharat-138808?style=for-the-badge)](https://dmj.one)
 [![Accessibility](https://img.shields.io/badge/WCAG-2.2%20AAA-2D5A3E?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 [![Licence](https://img.shields.io/badge/licence-AGPL%20v3-blue?style=for-the-badge)](LICENSE)
+
+> **Read it live at [dmj.one/catalogue](https://dmj.one/catalogue/)** · the catalogue is deployed; this repository is the source.
 
 ---
 
@@ -29,10 +31,12 @@ Every product page tells one story · the human problem, the named promise, how 
 
 ## Live deployment
 
-The catalogue is published as a static site. View it at:
+The catalogue is live at:
 
+- **[dmj.one/catalogue/](https://dmj.one/catalogue/)** · the deployed catalogue (the link to share)
 - **[dmj.one](https://dmj.one)** · the umbrella platform · the parent organisation that holds every product listed in this catalogue (think Alphabet to Google)
-- The product catalogue page itself is a static deploy of the HTML, CSS and one small inline JavaScript file in this repo · drop the directory on Cloudflare Pages, GitHub Pages, Vercel, Netlify, S3, or any static host
+
+The catalogue is a single static site (HTML + CSS + a few lines of progressive-enhancement JS). To rehost a fork, drop the directory on Cloudflare Pages, GitHub Pages, Vercel, Netlify, S3, or any static host. No build step.
 
 To preview locally:
 
