@@ -29,3 +29,6 @@ out/
 # Local scripts
 _*.py
 /tmp/
+
+# Internal authoring scaffolding (kept locally, not pushed)
+AGENT_BRIEF.md
