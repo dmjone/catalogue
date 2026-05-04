@@ -1,0 +1,31 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node (in case of any tooling)
+node_modules/
+.npm/
+.yarn/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local server / build artifacts
+.cache/
+dist/
+build/
+out/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Local scripts
+_*.py
+/tmp/
